@@ -20,7 +20,7 @@ SAVEHIST=1000000
 # 1行表示
 # PROMPT="%~ %# "
 # 2行表示
-PROMPT="%{${fg[yellow]}%}[%n@%m]%{${reset_color}%} %~
+PROMPT="%{${fg[cyan]}%}[%n@%m]%{${reset_color}%} %~
 %# "
 
 
@@ -39,6 +39,11 @@ zstyle ':zle:*' word-style unspecified
 # 補完機能を有効にする
 autoload -Uz compinit
 compinit
+
+setopt auto_pushd
+setopt list_packed
+
+
 
 # 補完で小文字でも大文字にマッチさせる
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'

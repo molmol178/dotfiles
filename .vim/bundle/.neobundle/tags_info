@@ -1,0 +1,5 @@
+lightline.vim
+neobundle.vim
+nerdtree
+vim-indent-guides
+vim-tomorrow-theme
