@@ -169,3 +169,9 @@ case ${OSTYPE} in
 esac
 
 # vim:set ft=zsh:
+export PATH="/usr/local/opt/opencv3/bin:$PATH"
+
+
+#homebrew
+export PATH=/usr/local/bin:$PATH
+
