@@ -112,6 +112,8 @@ autocmd ColorScheme * highlight LineNr ctermfg=30
 autocmd ColorScheme * highlight Comment ctermfg=30
 autocmd ColorScheme * highlight Visual ctermfg=0 ctermbg=4
 autocmd ColorScheme * highlight Search ctermfg=0 ctermbg=85
+autocmd ColorScheme * highlight ErrorMsg ctermfg=255 ctermbg=124
+
 syntax on
 colorscheme Tomorrow-Night-Bright
 highlight Normal ctermbg=none
