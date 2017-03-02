@@ -1,7 +1,7 @@
 "-----NeoBundle-----
 " Required:
-set runtimepath+=/Users/molmol178/dotfiles/.vim/bundle/neobundle.vim
-call neobundle#begin(expand('$HOME/dotfiles/.vim/bundle'))
+set runtimepath+=~/dotfiles/.vim/bundle/neobundle.vim
+call neobundle#begin(expand('~/dotfiles/.vim/bundle'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'chriskempson/vim-tomorrow-theme'
@@ -81,6 +81,7 @@ endfunction
 
 " Required:
 call neobundle#end()
+NeoBundleCheck
 filetype plugin indent on
 
 "------General Settings-----
